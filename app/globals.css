@@ -2,10 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  html,
-  body {
-    font-family: "Inter", sans-serif;
-    @apply scroll-smooth  text-base antialiased;
-  }
+html,
+body {
+  font-family: "Inter", sans-serif;
+  @apply scroll-smooth  text-base antialiased;
 }
