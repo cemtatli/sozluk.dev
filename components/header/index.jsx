@@ -7,16 +7,16 @@ export default function Header() {
   return (
     <>
       <Tooltip />
-      <header className="sticky top-0 flex h-15 w-full items-center justify-center  bg-ebony-900 ">
+      <header className="sticky top-0 flex h-15 w-full items-center justify-center bg-ebony-900">
         <nav className="flex items-center justify-center text-lg font-bold text-white">
           <svg
             mr-2
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            strokeWidth={1.75}
+            strokeWidth={2}
             stroke="currentColor"
-            className="mr-1.5 w-6 text-white"
+            className="mr-1.5 h-6 w-6 text-white"
             aria-hidden="true"
           >
             <path

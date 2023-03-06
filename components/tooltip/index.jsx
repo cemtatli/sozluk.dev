@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import React from "react";
-import { XMarkIcon } from "@heroicons/react/24/solid";
+import { XMarkIcon, ArrowSmallRightIcon } from "@heroicons/react/24/solid";
 
 export default function Tooltip() {
   return (
