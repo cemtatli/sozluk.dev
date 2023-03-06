@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "term": "HTML",
+    "desc": "Hyper Text Markup Language"
+  },
+  {
+    "id": 2,
+    "term": "CSS",
+    "desc": "Cascading Style Sheets",
+    "question": "What is CSS?"
+  },
+  {
+    "id": 3,
+    "term": "JavaScript",
+    "desc": "Programming Language"
+  }
+]
