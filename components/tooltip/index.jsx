@@ -6,8 +6,10 @@ import { XMarkIcon } from "@heroicons/react/24/solid";
 
 export default function Tooltip() {
   return (
-    <div className="tooltip  group relative flex  w-full flex-col items-start justify-center gap-2.5 bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100 px-4 py-2 text-sm text-ebony-900 sm:items-center md:flex-row md:gap-5">
-      Açık kaynaklı projemize katkıda bulunmak isterseniz, GitHub üzerinden ulaşabilirsiniz.
+    <div className="tooltip group relative flex w-full flex-col items-start justify-center gap-2.5 bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100 px-4 py-2 text-sm text-ebony-900 sm:items-center md:flex-row md:gap-5">
+      <span>
+        Açık kaynaklı projemize katkıda bulunmak isterseniz, GitHub üzerinden ulaşabilirsiniz.
+      </span>
       <Link
         target="_blank"
         href="https://github.com/cemtatli"
