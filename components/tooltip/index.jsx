@@ -12,11 +12,11 @@ export default function Tooltip() {
       </span>
       <Link
         target="_blank"
-        href="https://github.com/cemtatli"
+        href="https://github.com/cemtatli/sozluk.dev"
         class="group flex-none rounded-full bg-ebony-900 py-1 px-3 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
       >
         Repo'ya git
-        <span aria-hidden="true" className="ml-0.5">
+        <span aria-hidden="true" className="ml-1">
           →
         </span>
       </Link>
