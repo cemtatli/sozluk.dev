@@ -28,7 +28,7 @@ export default function Header() {
           </svg>
           <Link href={"/"}>sözlük.dev</Link>
         </nav>
-        <DarkMode className="" />
+        <DarkMode />
       </header>
     </>
   );
