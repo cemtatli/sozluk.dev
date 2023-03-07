@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <>
       <Tooltip />
-      <header className="sticky top-0 flex h-15 w-full items-center justify-center bg-ebony-900 px-4 py-2 md:py-6">
+      <header className="sticky top-0 flex h-15 w-full items-center justify-center bg-ebony-900 px-4 py-2 md:py-6 dark:border-b dark:border-ebony-100 dark:border-opacity-10">
         <nav className="flex flex-auto items-center justify-center text-lg font-bold text-white">
           <svg
             mr-2

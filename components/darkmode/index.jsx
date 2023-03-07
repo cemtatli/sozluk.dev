@@ -6,7 +6,7 @@ import styles from "./styles.module.css";
 export default function DarkMode() {
   const { theme, setTheme } = useTheme();
   return (
-    /*  <input
+<input
       aria-label="Theme Switcher"
       checked={theme === "light"}
       type="checkbox"
@@ -14,9 +14,9 @@ export default function DarkMode() {
       onClick={() => {
         setTheme(theme === "dark" ? "light" : "dark");
       }}
-    /> */
+    /> 
 
-    <button
+/*     <button
       onClick={() => {
         setTheme(theme === "dark" ? "light" : "dark");
       }}
@@ -26,6 +26,6 @@ export default function DarkMode() {
       ) : (
         <MoonIcon className="h-5 w-5  text-indigo-300" />
       )}
-    </button>
+    </button> */
   );
 }
