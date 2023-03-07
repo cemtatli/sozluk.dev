@@ -7,6 +7,6 @@
   body {
     font-family: "Inter", sans-serif;
     font-size: 16px;
-    @apply h-full scroll-smooth bg-[#f9fafb] antialiased dark:bg-slate-800 dark:text-white;
+    @apply h-full scroll-smooth bg-[#f9fafb] antialiased dark:bg-[#142031] dark:text-white;
   }
 }
