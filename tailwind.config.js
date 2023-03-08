@@ -1,3 +1,5 @@
+const { fontFamily } = require('tailwindcss/defaultTheme')
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   mode: "jit",
@@ -63,10 +65,12 @@ module.exports = {
           800: "#86490d",
           900: "#723c11",
         },
-
       },
       screens: {
         xs: "425px",
+      },
+      fontFamily: {
+        sans: ['var(--font-inter)', ...fontFamily.sans],
       },
     },
   },

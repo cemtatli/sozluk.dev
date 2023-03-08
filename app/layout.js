@@ -6,11 +6,14 @@ import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 
-const interFontFamily = Inter({ subsets: ["latin"] });
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
+})
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="tr" className={interFontFamily.className}>
+    <html lang="tr" className={`${inter.variable} font-sans`} >
       <ThemeProvider attribute="class">
         <body>
           <Header />
